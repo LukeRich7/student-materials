@@ -18,33 +18,69 @@ The client has expressed desire for students located in various regions to have 
 
 ## Scope
 
-This is a new application. There is no legacy integration required. The end product will be 
+This is a new application. There is no legacy integration required. The end product will feature:
+- a user interface to upload project ideas & files
+- a user interface to search existing/ongoing projects & request access
+- an online workspace to visualize collaborative efforts
+- a social communication functionality that is lightweight & integrates seamlessly with the workspace
 
 ## Functional requirements
 
-*This is where most of the detail should reside.  describe all of the required capabilities of the system in detail.  It is helpful to articulate features in terms of user capabilities.  Keep in mind that the features will be designed and developed off of these descriptions, so if you leave anything up to interpretation, you run the risk of the results not meeting your expectations.  You can also assume capabilities that are not mentioned here will not be included in the project, no matter how common or obvious they are.  You may want to break our subsections for each major feature to make the document more organized.*
+Big Idea: a web application which will allow students to connect with like-minded students for projects, share ideas & files, and communicate via text or video chat while doing so.
+
+Access/Security: 
+- Each user will need to create a unique profile & login in to access the application; this id will be used to track project access
+- Each user will be able to request access to ongoing projects by other users & grant permission(s) to access their original projects
+
+Creating/Joining:
+- Each user will have the ability create a new project folder & post it to the application database
+- The creator of any project will be notified & prompted to approve access by other users to created projects 
+- Each user will have the ability to search the database of existing projects & request access to join
+- There will be 3 levels of access: view only, contribute & edit that will determined by the project admin (creator)
+
+Collaborating:
+- Each user will be able to view a shared workspace & visualize existing code, images, files etc.
+- Each user will be able to upload files & attachments to be used or viewed by other team members
+
+Communication:
+- Each user will be able to send and/or receive text driven messages to other team members in a DM/chat style
+- Each user will have the ability to video chat with other team members
 
 
 ## Personnel requirements
 
-*In this section you may want to describe the composition of the team, do you need dedicated development?  how many people?  How about design or QA?  Think about what personnel is required to make this project a success, and place your recommendations here.*
+- Project Manager
+- Lead Designer/Developer
+- (6) Assistant Developers
+- QA & Testing Lead
 
 ## Delivery schedule
 
-*It's often helpful to break a project out into phases or milestones.  In this section list out any logical checkpoints where you would like to see the project demonstrated to ensure that expectations are being met.  Describe the phase, and the functional requirements required for completion.*
+Phase 1:
+- Test functionality of access/security portion by successfully creating profile & posting a unique project with auto-generated ID
+
+Phase 2:
+- Test functionality of creating/joining portion by verifying reciept of notification upon access request & all appropriate projects in 
+  database return on search
+  
+Phase 3:
+- Test functionality of collaborating portion by verifying access to shared space & ability to upload files
+
+Phase 4:
+- Test functionality of communication portion by verifying chat & video chat features.
 
 ## Other requirements
 
-*This section serves as a catch-all for any details that may not fit in other areas.  things like device or browser support, considerations for accessibility or inspiration for style.  Offer additional context here to ensure the project meets your vision*
+The client values quality and innovative solution or something that is quick to market. They are looking to us & our team to help define some features that would motivate students to engage in using this platform to connect and build better communication.
 
 ## Assumptions
 
-*Oftentimes we are reliant on outside sources such as frameworks to be used, or services that our system will depend on.  In this section you should provide detail on any assumptions that you have made, such as the system being reliant on the availability of the Google Maps API.*
+N/A
 
 ## Limitations
 
-*Identify any limitations in terms of time, personnel, technical details, or other things that limit the scope, time, and cost of the project being discussed.*
+Ongoing conversations with client to maintain project integrity & desired functionality may affect critical path.
 
 ## Risks
 
-*Every project has inherent risks that may cause delay or even failure of a project.  You must identify this risks to show you know what they are, and also identify ways in which you would mitigate those risks.*
+Personnel & competive market to create a similar application
