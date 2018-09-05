@@ -1,20 +1,24 @@
-# Title
+# Exeter: Online Student Collaboration Project
 
 ## Executive Summary
 
-*Your executive summary should be pretty brief, under 3 paragraphs and should provide a concise summary of the purpose and contents of the rest of the document.  Explain to the reader what they will get from this document.*
+This document will explain objective, background, necessity, scope requirements, schedule & limitations of the Online Student Collaboration Project (OSCP). Each section will focus on a specific portion of the development of this web application & will be useful to obtain a broad view of the project at hand. 
 
 ## Business Objectives
 
-*Business objectives should offer the details for why the project is important.  Outline the goals of the project int he sense of the value it will bring and set expectations.  Keep your objectives measurable to avoid confusion in whether or not they have been met.*
+This application will provide a medium to:
+- share project ideas
+- search existing project ideas
+- provide online workspace for collaboration with remote team members
+- provide online communication & file sharing functionality to aid in efficent project completion
 
 ## Background
 
-*Provide any relevant background information regarding why this project is being initiated*
+The client has expressed desire for students located in various regions to have the capability to collaborate on projects.
 
 ## Scope
 
-*The Scope section should outline what is and is not included as part of this project.  Oftentimes we make assumptions of features or functionality that is not necessarily required.  This is especially useful in a phased approach or when working on an existing system.*
+This is a new application. There is no legacy integration required. The end product will be 
 
 ## Functional requirements
 
